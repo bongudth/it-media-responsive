@@ -1,0 +1,88 @@
+@import "../../assets/scss/Variable.scss";
+
+.event-container {
+  color: $primary-color;
+  margin: 20px 50px;
+
+  .event-title {
+    font-size: $font-big-large;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .event-primary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin: 20px auto;
+
+    .event-primary-header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 5px;
+
+      .event-primary-image {
+        width: calc(50% - 10px);
+        height: 100px;
+        object-fit: cover;
+        box-shadow: $box-shadow-light;
+      }
+
+      .event-primary-info {
+        width: 50%;
+        font-size: $font-small;
+
+        .event-primary-title {
+          font-size: $font-large;
+          font-weight: bold;
+        }
+      }
+    }
+
+    .event-primary-summary {
+      text-align: justify;
+    }
+  }
+
+  .event-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    .event-item-container {
+      border: 1px solid $primary-color;
+      padding: 5px;
+
+      .event-item-image {
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+      }
+
+      .event-item-info {
+        font-size: small;
+
+        .event-item-title {
+          font-size: $font-large;
+          font-weight: bold;
+          text-align: center;
+        }
+      }
+
+      .event-item-summary {
+        text-align: justify;
+      }
+    }
+  }
+
+  .ant-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+}
