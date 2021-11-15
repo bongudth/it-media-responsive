@@ -44,7 +44,7 @@ const menuAva = (
     <Menu.Divider />
     <Menu.Item key="4">
       <i className="fas fa-question"></i>
-      <div>Create question</div>
+      <Link to="/create-question">Create question</Link>
     </Menu.Item>
     <Menu.Divider />
     <Menu.Item key="5">
