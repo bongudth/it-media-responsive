@@ -1,0 +1,83 @@
+@import "../../assets/scss/Variable.scss";
+
+.header-container {
+  background-color: $primary-color;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+
+  .header-menu-icon {
+    color: $white-color;
+    font-size: $font-big-large;
+    cursor: pointer;
+  }
+
+  .header-right-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    .header-right-icon {
+      width: 30px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: $white-color;
+      font-size: $font-small;
+      border: 1px solid $white-color;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .header-translate-icon {
+      font-size: $font-default;
+    }
+
+    .header-right-avatar {
+      width: 30px;
+      height: 30px;
+      object-fit: cover;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+  }
+}
+
+.ant-dropdown {
+  .ant-dropdown-menu-title-content {
+    color: $primary-color;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .menu-avatar {
+    padding: 20px;
+  }
+}
+
+.menu-avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .menu-avatar-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+  .menu-avatar-name {
+    font-size: $font-default;
+    font-weight: bold;
+  }
+
+  .menu-avatar-email {
+    font-size: $font-small;
+    margin-top: -10px;
+  }
+}
