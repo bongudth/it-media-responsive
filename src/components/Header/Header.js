@@ -16,7 +16,7 @@ const menuNav = (
     </Menu.Item>
     <Menu.Divider />
     <Menu.Item key="2">
-      <Link to="/infomations">Information</Link>
+      <Link to="/information">Information</Link>
     </Menu.Item>
     <Menu.Divider />
     <Menu.Item key="3">
