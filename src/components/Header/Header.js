@@ -39,7 +39,7 @@ const menuAva = (
     <Menu.Divider />
     <Menu.Item key="3">
       <i className="fas fa-user"></i>
-      <div>Profile</div>
+      <Link to="/profile">Profile</Link>
     </Menu.Item>
     <Menu.Divider />
     <Menu.Item key="4">

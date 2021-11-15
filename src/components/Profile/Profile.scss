@@ -1,0 +1,62 @@
+@import "../../assets/scss/Variable.scss";
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: $primary-color;
+  gap: 10px;
+  margin: 20px 50px;
+
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .profile-name {
+    font-size: $font-large;
+    font-weight: bold;
+  }
+
+  .profile-button-group {
+    display: flex;
+    gap: 5px;
+
+    .profile-button {
+      background-color: $white-color;
+      color: $primary-color;
+      border: 1px solid $primary-color;
+      border-radius: 4px;
+    }
+
+    &:last-child {
+      margin-top: 10px;
+    }
+  }
+
+  .profile-form {
+    width: 100%;
+
+    .profile-title {
+      text-align: center;
+      font-size: $font-large;
+      font-weight: bold;
+    }
+
+    .profile-label {
+      width: 100%;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .profile-input {
+      width: 100%;
+      border: 1px solid $primary-color;
+      border-radius: 4px;
+      padding: 5px;
+    }
+  }
+}
