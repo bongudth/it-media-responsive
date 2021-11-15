@@ -1,0 +1,133 @@
+@import "../../assets/scss/Variable.scss";
+
+.home-container {
+  color: $primary-color;
+  margin: 50px;
+
+  .home-event {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .home-event-image {
+      width: 100%;
+      height: 120px;
+      object-fit: cover;
+      box-shadow: $box-shadow-light;
+    }
+
+    .home-event-name {
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 10px auto 5px;
+    }
+
+    .home-event-info {
+      width: 100%;
+      font-size: $font-small;
+    }
+
+    .home-event-button {
+      background-color: $primary-color;
+      color: $white-color;
+      font-size: $font-small;
+      border-radius: 4px;
+      padding: 5px;
+      margin-top: 10px;
+    }
+  }
+
+  .home-topic {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    .home-topic-container {
+      width: 130px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      border: 1px solid $primary-color;
+      box-shadow: $box-shadow-dark;
+      padding: 10px;
+
+      .home-topic-icon {
+        font-size: $font-super-large;
+      }
+
+      .home-topic-title {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .home-question {
+    .home-question-container {
+      border-bottom: 1px solid $primary-color;
+      padding: 10px;
+
+      .home-question-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .home-question-info {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+
+          .home-question-avatar {
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+            border-radius: 50%;
+          }
+
+          .home-question-name {
+            font-weight: bold;
+          }
+
+          .home-question-time {
+            font-size: $font-small;
+          }
+        }
+
+        .home-question-topic {
+          font-style: italic;
+        }
+      }
+
+      .home-question-body {
+        margin-top: 10px;
+
+        .home-question-title {
+          text-align: center;
+          font-weight: bold;
+        }
+      }
+
+      &:last-child {
+        border: none;
+      }
+    }
+  }
+
+  .home-information {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+    .home-information-image {
+      width: calc(50% - 10px);
+      height: 100px;
+      object-fit: cover;
+      box-shadow: $box-shadow-dark;
+    }
+  }
+}
