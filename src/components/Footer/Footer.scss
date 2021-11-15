@@ -1,0 +1,38 @@
+@import "../../assets/scss/Variable.scss";
+
+.footer-container {
+    background-color: $primary-color;
+    color: $white-color;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+    .footer-faculty {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+
+        .footer-faculty-logo {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+        }
+    }
+    
+    .footer-infomation {
+        display: flex;
+        gap: 5px;
+
+        .footer-infomation-label {
+            font-weight: bold;
+        }
+        
+        .footer-infomation-content {
+            color: $white-color;
+        }
+
+        &:last-child {
+            align-items: center;
+        }
+    }
+}

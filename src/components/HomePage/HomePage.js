@@ -1,6 +1,7 @@
 import React from "react"
 
 import Header from "../Header/Header"
+import Footer from "../Footer/Footer"
 import "./HomePage.scss"
 
 function HomePage() {
@@ -8,6 +9,7 @@ function HomePage() {
         <>
             <Header />
             <div>This is home page</div>
+            <Footer />
         </>
     )
 }
