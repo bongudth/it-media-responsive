@@ -61,7 +61,7 @@ function Header() {
         <i className="fas fa-bars header-menu-icon" onClick={e => e.preventDefault()}></i>
       </Dropdown>
       <div className="header-right-container">
-        <i className="fas fa-search header-right-icon"></i>
+        {/* <i className="fas fa-search header-right-icon"></i> */}
         <div className="header-right-icon header-translate-icon">VI</div>
         <Dropdown overlay={menuAva} trigger={['click']}>
           <img src={avatar} alt="avatar" className="header-right-avatar"></img>

@@ -1,5 +1,5 @@
 import React from "react"
-import { Divider, Pagination } from 'antd'
+import { Pagination } from 'antd'
 
 import Header from "../Header/Header"
 import Footer from "../Footer/Footer"
@@ -14,7 +14,7 @@ function EventList() {
       <div className="event-container">
         <div className="event-title">Events</div>
 
-        <div className="event-primary">
+        {/* <div className="event-primary">
           <div className="event-primary-header">
             <img src={event} alt="event" className="event-primary-image"></img>
             <div className="event-primary-info">
@@ -26,7 +26,7 @@ function EventList() {
           <div className="event-primary-summary">Chắc chắn rằng, đây không chỉ là một mùa giải gay cấn, hấp dẫn, mà còn mang cả yếu tố "hài hước" cùng với đội cổ động viên nồng nhiệt. Liệu có những chiến binh sân cỏ nào đang ẩn mình trong lớp áo ITers hay không? Các bạn đã sẵn sàng để tận hưởng những trận cầu cháy bỏng trong cuộc đua tìm kiếm "The Champion" chưa nào!!!</div>
         </div>
 
-        <Divider />
+        <Divider /> */}
 
         <div className="event-list-container">
           <div className="event-item-container">

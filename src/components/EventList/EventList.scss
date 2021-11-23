@@ -2,12 +2,13 @@
 
 .event-container {
   color: $primary-color;
-  margin: 20px 50px;
+  margin: 20px 20px;
 
   .event-title {
     font-size: $font-big-large;
     font-weight: bold;
     text-align: center;
+    margin-bottom: 20px;
   }
 
   .event-primary {
